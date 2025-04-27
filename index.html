@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hospital Management System</h1>
+</header>
+
+<nav>
+    <a href="#patients">Patients</a>
+    <a href="#doctors">Doctors</a>
+    <a href="#appointments">Appointments</a>
+    <a href="#billing">Billing</a>
+</nav>
+
+<div class="container">
+
+    <div id="patients" class="card">
+        <h2>Patient Management</h2>
+        <p>Add, view, and manage patient records here.</p>
+        <button>Add Patient</button>
+        <button>View Patients</button>
+    </div>
+
+    <div id="doctors" class="card">
+        <h2>Doctor Management</h2>
+        <p>Add, view, and manage doctor profiles here.</p>
+        <button>Add Doctor</button>
+        <button>View Doctors</button>
+    </div>
+
+    <div id="appointments" class="card">
+        <h2>Appointment Scheduling</h2>
+        <p>Schedule, view, and manage appointments.</p>
+        <button>New Appointment</button>
+        <button>View Appointments</button>
+    </div>
+
+    <div id="billing" class="card">
+        <h2>Billing and Payments</h2>
+        <p>Manage invoices and payment records.</p>
+        <button>Create Invoice</button>
+        <button>View Payments</button>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Hospital Management System. All rights reserved.
+</footer>
+
+</body>
+</html>
+
+
+
